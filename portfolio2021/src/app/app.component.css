@@ -1,12 +1,11 @@
 :host {
-    display: flex;
-    
+    display: flex;   
     justify-content: center;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 #border {
-    border: solid 1px rgb(179, 179, 179);
+    border: solid 1px rgb(230, 230, 230);
     width: 700px;
 }
 
@@ -44,6 +43,104 @@ img {
 }
 
 h2 {
-    font-size: 10px;
+    font-size: 14px;
     margin: 0px 0px 5px 0px;
 }
+
+#aboutMe {
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#about {
+    font-size: 15px;
+    margin-top: 40px;
+    border-bottom: solid 1px black;
+}
+
+#interests {
+    background-color: #d3d3d391;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#interest {
+    font-size: 15px;
+    margin-top: 40px;
+    border-bottom: solid 1px black;
+}
+
+#work {
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#work1 {
+    font-size: 15px;
+    margin-top: 40px;
+    border-bottom: solid 1px black;
+}
+
+#contact {
+    background-color: #d3d3d391;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#contact1 {
+    font-size: 15px;
+    margin-top: 40px;
+    border-bottom: solid 1px black;
+}
+
+#text1 {
+    margin-top: 10px;
+    height: 20px;
+    width: 300px;
+    border: 1px rgb(226, 226, 226);
+    border-radius: 3px;
+    box-shadow: 2px 2px rgba(82, 82, 82, 0.199);
+}
+
+#text2 {
+    width: 300px;
+    margin-top: 10px;
+    border: 1px rgb(226, 226, 226);
+    border-radius: 3px;
+    box-shadow: 2px 2px rgba(82, 82, 82, 0.199);
+    padding-bottom: 120px;
+    padding-top: 5px;
+}
+
+#buttondiv {
+    display: flex;
+    justify-content: left;
+}
+
+#button {
+    height: 30px;
+    width: 80px;
+    background: #2c98f0;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 2px 2px rgba(82, 82, 82, 0.199);
+    color: white;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+#copyright {
+    background-color: #2a5170;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
